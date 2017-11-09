@@ -5,8 +5,9 @@ use Bio::SeqIO;
 use Bio::PrimarySeq;
 
  create a directory
-unless (-d "/bac_db/Custom") {
-	mkdir "/bac_db/Custom";
+unless (-d "CLARKSCV1.2.3.2/bac_db/Custom") {
+
+	mkdir "CLARKSCV1.2.3.2/bac_db/Custom";
 }
 chdir "CLARKSCV1.2.3.2/bac_db/Custom";
 
